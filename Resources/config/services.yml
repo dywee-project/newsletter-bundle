@@ -1,0 +1,4 @@
+services:
+#    dywee_newsletter.example:
+#        class: Dywee\NewsletterBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

@@ -67,7 +67,7 @@ class NewsletterSubscription
      * Set email
      *
      * @param string $email
-     * @return Newsletter
+     * @return NewsletterSubscription
      */
     public function setEmail($email)
     {
@@ -90,7 +90,7 @@ class NewsletterSubscription
      * Set active
      *
      * @param boolean $active
-     * @return Newsletter
+     * @return NewsletterSubscription
      */
     public function setActive($active)
     {
@@ -113,7 +113,7 @@ class NewsletterSubscription
      * Set createdAt
      *
      * @param \DateTime $createdAt
-     * @return Newsletter
+     * @return NewsletterSubscription
      */
     public function setCreatedAt($createdAt)
     {
@@ -136,7 +136,7 @@ class NewsletterSubscription
      * Set deactivatedAt
      *
      * @param \DateTime $deactivatedAt
-     * @return Newsletter
+     * @return NewsletterSubscription
      */
     public function setDeactivatedAt($deactivatedAt)
     {
